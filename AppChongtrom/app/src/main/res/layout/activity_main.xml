@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/anh3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="App chống trộm"
+        android:gravity="center"
+        android:textSize="37dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+    </TextView>
+    <TextView
+        android:id="@+id/tv1"
+        android:hint="Hãy đưa tay lại gần \nđiện thoại..."
+        android:textStyle="italic"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <LinearLayout
+        android:layout_marginTop="302dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/info"
+            android:text="info"
+            android:layout_width="wrap_content"
+            android:textSize="23dp"
+            android:textColor="#ffffff"
+            android:background="#1e90ff"
+            android:textStyle="bold"
+            android:layout_marginRight="25dp"
+            android:layout_height="wrap_content"
+            style="?android:attr/borderlessButtonStyle">
+        </Button>
+        <Button
+            android:id="@+id/exit"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="exit"
+            android:textSize="23dp"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="#ee0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+</LinearLayout>
